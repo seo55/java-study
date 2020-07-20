@@ -10,6 +10,8 @@ public class TestParkSystem03 {
 		
 		Car c3 = new Pocrain();
 		ParkSystem03.park(c3);
-
+		
+		Parkable p = new AirPlane();
+		ParkSystem03.park(p);
 	}
 }
